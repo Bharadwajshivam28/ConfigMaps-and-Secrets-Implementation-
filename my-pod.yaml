@@ -11,12 +11,12 @@ spec:
         - name: APP_NAME
           valueFrom:
             configMapKeyRef:
-              name: my-configMap
+              name: my-configmap
               key: app_name
         - name: APP_LANGUAGE
           valueFrom:
             configMapKeyRef:
-              name: my-configMap
+              name: my-configmap
               key: app_language
         - name: DB_USERNAME
           valueFrom:
