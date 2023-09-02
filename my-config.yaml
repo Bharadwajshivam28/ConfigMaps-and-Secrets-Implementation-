@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-configMap
+data:
+  app_name: My-Project
+  app_language: Yaml
